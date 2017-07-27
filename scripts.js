@@ -38,7 +38,6 @@ function handleProgress() {
 }
 
 function scrub(e) {
-  // console.log(e);
   const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration;
   video.currentTime = scrubTime;
 }
